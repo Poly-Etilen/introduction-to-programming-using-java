@@ -196,7 +196,7 @@ String str = "Java Programming";
 String upper = str.toUpperCase();   // "JAVA PROGRAMMING"
 String lower = str.toLowerCase();   // "java programming"
 
-// 공백 제거
+// 공백 제거 trim() 괄호 안에 특정 문자를 넣으면 특정 문자 제거 가능
 String spaced = "  Java  ";
 String trimmed = spaced.trim();     // "Java"
 ```
